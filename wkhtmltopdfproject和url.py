@@ -10,5 +10,5 @@ def url_to_pdf(url, to_file):
     pdfkit.from_url(url,to_file, configuration=config)
     print('完成')
 
-# 这里传入我知乎专栏文章url，转换为pdf
-url_to_pdf(r'https://zhuanlan.zhihu.com/p/69869004', 'out_1.pdf')
+# url，转换为pdf
+url_to_pdf(r' ', 'out_1.pdf')
